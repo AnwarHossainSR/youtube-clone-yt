@@ -117,7 +117,7 @@ const Video = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-           />
+          />
         </VideoWrapper>
         <Title>Test Video</Title>
         <Details>
