@@ -7,7 +7,7 @@ const Container = styled.div`
   position: sticky;
   top: 0;
   background-color: ${({ theme }) => theme.bgLighter};
-  height: 56px;
+  height: 80px;
 `;
 
 const Wrapper = styled.div`

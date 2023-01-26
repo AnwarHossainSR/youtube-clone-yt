@@ -1,22 +1,20 @@
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import FlagOutlinedIcon from '@mui/icons-material/FlagOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import HistoryOutlinedIcon from '@mui/icons-material/HistoryOutlined';
 import HomeIcon from '@mui/icons-material/Home';
-import LibraryMusicOutlinedIcon from '@mui/icons-material/LibraryMusicOutlined';
-import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
-import MovieOutlinedIcon from '@mui/icons-material/MovieOutlined';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import SettingsBrightnessOutlinedIcon from '@mui/icons-material/SettingsBrightnessOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import SportsBasketballOutlinedIcon from '@mui/icons-material/SportsBasketballOutlined';
-import SportsEsportsOutlinedIcon from '@mui/icons-material/SportsEsportsOutlined';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
+import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
 const Container = styled.div`
   flex: 1;
   background-color: ${({ theme }) => theme.bgLighter};
@@ -27,7 +25,7 @@ const Container = styled.div`
   top: 0;
 `;
 const Wrapper = styled.div`
-  padding: 18px 26px;
+  padding: 38px 26px;
 `;
 const Logo = styled.div`
   display: flex;
@@ -68,13 +66,6 @@ const Button = styled.button`
   gap: 5px;
 `;
 
-const Title = styled.h2`
-  font-size: 14px;
-  font-weight: 500;
-  color: #aaaaaa;
-  margin-bottom: 20px;
-`;
-
 const Menu = ({ darkMode, setDarkMode }) => {
   return (
     <Container>
@@ -82,7 +73,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
           <Logo>
             <YouTubeIcon sx={{ color: 'error.main' }} />
-            ATube
+            You Tube
           </Logo>
         </Link>
         <Item>
@@ -106,6 +97,22 @@ const Menu = ({ darkMode, setDarkMode }) => {
           <HistoryOutlinedIcon />
           History
         </Item>
+        <Item>
+          <AccessTimeIcon />
+          Watch Later
+        </Item>
+        <Item>
+          <OndemandVideoIcon />
+          Liked Videos
+        </Item>
+        <Item>
+          <ThumbUpOffAltIcon />
+          Liked Videos
+        </Item>
+        <Item>
+          <KeyboardArrowDownIcon />
+          Show More
+        </Item>
         <Hr />
         <Login>
           Sign in to like videos, comment, and subscribe.
@@ -117,36 +124,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
           </Link>
         </Login>
         <Hr />
-        <Title>BEST OF LAMATUBE</Title>
-        <Item>
-          <LibraryMusicOutlinedIcon />
-          Music
-        </Item>
-        <Item>
-          <SportsBasketballOutlinedIcon />
-          Sports
-        </Item>
-        <Item>
-          <SportsEsportsOutlinedIcon />
-          Gaming
-        </Item>
-        <Item>
-          <MovieOutlinedIcon />
-          Movies
-        </Item>
-        <Item>
-          <ArticleOutlinedIcon />
-          News
-        </Item>
-        <Item>
-          <LiveTvOutlinedIcon />
-          Live
-        </Item>
-        <Hr />
-        <Item>
-          <SettingsOutlinedIcon />
-          Settings
-        </Item>
+
         <Item>
           <FlagOutlinedIcon />
           Report
