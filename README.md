@@ -66,7 +66,7 @@
 
 <!-- [![Product Name Screen Shot][/images/screenshot.png]](https://example.com) -->
 
-![Product Name Screen Shot](/readme/images/screensho.png?raw=true 'Screenshot')
+![Product Name Screen Shot](/readme/images/screenshot.png?raw=true 'Screenshot')
 
 Here's why:
 
