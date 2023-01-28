@@ -112,7 +112,7 @@ const Video = () => {
           <iframe
             width="100%"
             height="315"
-            src="https://www.youtube.com/embed/uY5qugbnVGU"
+            src="https://www.youtube.com/embed/5LbpwtzPhIk"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -142,8 +142,8 @@ const Video = () => {
           <ChannelInfo>
             <Image src={developmentKit} />
             <ChannelDetail>
-              <ChannelName>Lama Dev</ChannelName>
-              <ChannelCounter>200K subscribers</ChannelCounter>
+              <ChannelName>Development Kit</ChannelName>
+              <ChannelCounter>200 subscribers</ChannelCounter>
               <Description>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Doloribus laborum delectus unde quaerat dolore culpa sit aliquam

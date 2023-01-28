@@ -47,21 +47,6 @@ const Button = styled.button`
   color: ${({ theme }) => theme.textSoft};
 `;
 
-const More = styled.div`
-  display: flex;
-  margin-top: 10px;
-  font-size: 12px;
-  color: ${({ theme }) => theme.textSoft};
-`;
-
-const Links = styled.div`
-  margin-left: 50px;
-`;
-
-const Link = styled.span`
-  margin-left: 30px;
-`;
-
 const SignIn = () => {
   return (
     <Container>
@@ -71,20 +56,7 @@ const SignIn = () => {
         <Input placeholder="username" />
         <Input type="password" placeholder="password" />
         <Button>Sign in</Button>
-        <Title>or</Title>
-        <Input placeholder="username" />
-        <Input placeholder="email" />
-        <Input type="password" placeholder="password" />
-        <Button>Sign up</Button>
       </Wrapper>
-      <More>
-        English(USA)
-        <Links>
-          <Link>Help</Link>
-          <Link>Privacy</Link>
-          <Link>Terms</Link>
-        </Links>
-      </More>
     </Container>
   );
 };
